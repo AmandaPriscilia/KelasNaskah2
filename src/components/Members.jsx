@@ -43,7 +43,7 @@ export function Members() {
         </div>
 
         {/* Grid anggota: Ini yang sudah diubah */}
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
+        <div className="grid **grid-cols-1 sm:grid-cols-2** lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
           {filteredMembers.map((member) => (
             <TeamMemberCard key={member.id} id={member.id} name={member.name} title={member.title} image={member.image} backgroundGradient={member.backgroundGradient} />
           ))}
