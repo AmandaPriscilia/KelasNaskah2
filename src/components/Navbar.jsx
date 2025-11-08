@@ -93,7 +93,7 @@ export default function Navbar() {
               <X className="h-5 w-5" />
             </Button>
           </li>
-          {['/', '/about', '/partnerships', '/gallery', '/activity', '/other-feature'].map(
+          {['/', '/about', '/partnerships', '/gallery', '/activity'].map(
             (href, i) => (
               <li key={i}>
                 <Link
